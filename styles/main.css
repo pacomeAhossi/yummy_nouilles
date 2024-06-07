@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserra:wght@284&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserra:wght@284&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+:root{
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+
+     /* Text configuration */
+     --body-font: 'Montserrat';
+     --body-highlight-font: 'Montserrat';
+     --header-font: 'Bebas Neue';
+     --title-font: 'Bebas Neue';
+ 
+     --body-font-weight: 400;
+     --body-highlight-font-weight: 600;
+     --header-font-weight: 400;
+     --title-font-weight: 400;
+ 
+     --body-font-size: 1.25rem;
+     --body-highlight-font-size: 1.25rem;
+     --header-font-size: 4.5rem;
+     --title-font-size: 1.5rem;
+ 
+     --body-line-height: 1.5rem;
+     --body-highlight-line-height: 1.5rem;
+     --header-line-height: 5.375rem;
+     --title-line-height: 1.75rem;
+}
+body{
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    background: var(--light-grey);
+    color: var(--black);
+    line-height: var(--body-line-height);
+}
+h1 {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--black);
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.188rem;
+}
+@import 'modules/appBar.css';
